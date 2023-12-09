@@ -24,9 +24,9 @@
     <![endif]-->    
     
     <!-- FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Raleway:200,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Tulpen+One|Sacramento' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Raleway:200,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tulpen+One|Sacramento' rel='stylesheet' type='text/css'>
         
     <!-- STYLES -->
     <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
@@ -101,7 +101,7 @@
                                         
                                         <!-- cover-image-holder -->
                                         <div class="cover-image-holder">
-                                        	<img src="images/site/stampimage.png" alt="cover-image">
+                                        	<img src="images/site/caricature.jpg" alt="cover-image">
                                         </div>
                                         <!-- cover-image-holder -->
                                         
@@ -110,12 +110,12 @@
                                         <!-- title -->
                                         
                                         <!-- slogan -->
-                                        <h2>STUDENT</h2>
+                                        <!-- <h2>Robotics CS PhD Student</h2> -->
                                         <!-- slogan -->
                                         
                                         <!-- extra titles -->
-                                        <h3><span>I STUDY AT</span> University of Virginia</h3>
-                                        <h3><span>I HOPE TO</span> Do Impactful Robotics Research</h3>
+                                        <h3><span>I am 2nd-year PhD at</span>University of Texas at Austin</h3>
+                                        <h3><span>I STUDY</span> Robotics</h3>
                                         <!-- extra titles --
                                         
                                         <!-- open link -->
@@ -174,16 +174,42 @@
                                         <div class="content">
                                         
                                         	
-                                            <h2><span>Summary</span></h2>
+                                            <h2><span>About Me</span></h2>
                                             
-                                            <h4 class="about-text">I am a fourth-year computer engineering student and an aspiring<span class="label">Robotics PhD</span> candidate</h4>
+                                            <h4 class="about-text">
+                                                I am a second-year Ph.D student in Computer Science at the 
+                                                <a href="https://www.utexas.edu/">University of Texas at Austin</a>, 
+                                                advised by Professor <a href="https://www.joydeepb.com/">Joydeep Biswas</a>. 
+                                                My research interests lie in applying and fine-tuning large vision language models (LLMs/VLMs) 
+                                                for robot navigation.
+                                              </h4>
                                             
+                                            <!-- DOWNLOAD BUTTON -->
+                                            <div class="launch">
+                                                <a href="/documents/cv.pdf" class="btn">DOWNLOAD CV</a>
+                                            </div>
+                                            <!-- DOWNLOAD BUTTON -->
 
                                             <h3><span>EDUCATION</span></h3>
                                             
                                             <!-- EDUCATION -->
                                             <div class="history-group">
-                                            
+                                                
+                                                <!-- .history-unit -->
+                                                <div class="history-unit">
+                                                	
+                                                    <h4 class="work-time">2022 - present</h4>
+                                                    
+                                                    <div class="work-desc">
+                                                    	
+                                                        <h4>Ph.D Computer Science Robotics</h4>
+                                                        <h5>University of Texas at Austin</h5>
+                                                        <p>GPA: 3.83/4.0</p>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                <!-- .history-unit -->
                                                 
                                                 <!-- .history-unit -->
                                                 <div class="history-unit">
@@ -194,7 +220,7 @@
                                                     	
                                                         <h4>B.S. Computer Engineering</h4>
                                                         <h5>University of Virginia</h5>
-                                                        <p>GPA: 3.96/4.0, Major GPA: 4.0/4.0</p>
+                                                        <p>GPA: 3.97/4.0, Major GPA: 3.93/4.0</p>
                                                         
                                                     </div>
                                                     
@@ -204,72 +230,63 @@
                                             </div>
                                             <!-- EDUCATION -->
 
-                                            <!-- DOWNLOAD BUTTON -->
-                                            <div class="launch">
-                                                <a href="/documents/cv.pdf" class="btn">DOWNLOAD CV</a>
-                                            </div>
-                                            <!-- DOWNLOAD BUTTON -->
-
-                                            <h3><span>Research Experience</span></h3>
+                                            <h3><span>Publications</span></h3>
                                             
                                             <!-- Research -->
                                             <div class="history-group">
                                             
-                                                
                                                 <!-- .history-unit -->
-                                                <div class="history-unit">
-                                                	
-                                                    <h4 class="work-time">2020 - 2021</h4>
-                                                    
+                                                <div class="history-unit">	
+                                                    <h4 class="work-time">2023</h4>
                                                     <div class="work-desc">
-                                                    	
-                                                        <h4>Efficient Graph SLAM For Sparse Sensing</h4>
-                                                        <h5>Charlloteville, VA</h5>
-                                                        <p> Led a project to solve the SLAM problems for resource limited nano robots that had one to two magnitudes less input information than a typical robot with a LiDAR or a camera</p>
-                                                        <p> Formulated a novel graph frontend to achieve local consistent pose estimations </p>
-                                                        <p> Adapted the Cartographer's implementations of the real-time correlative scan matching algorithm to the proposed system, and extended with a approximate matching heuristic to address the sparse sensing problem</p>
-                                                        
+                                                        <h4>
+                                                            Deploying and Evaluating LLMs to Program Service Mobile Robots 
+                                                            <a href="https://arxiv.org/abs/2311.11183">[arvix]</a>
+                                                            <a href="https://github.com/ut-amrl/codebotler">[code]</a>
+                                                            <a href="https://amrl.cs.utexas.edu/codebotler/">[website]</a>
+                                                        </h4>
+                                                        <h5>IEEE Robotics and Automation Letters (RA-L) 2024 (under review)</h5>
+                                                        <h6 style="margin:.2em 0 .4em; font-size: .8em; color: #999;">
+                                                            <strong>Zichao Hu</strong>, Francesca Lucchetti, Claire Schlesinger, Yash Saxena, Anders Freeman, Sadanand Modak, Arjun Guha, and Joydeep Biswas
+                                                        </h6>
                                                     </div>
-                                                    
+                                                    <div class="work-desc">
+                                                        <h4>
+                                                            Targeted Learning: A Hybrid Approach to Social Robot Navigation 
+                                                            <a href="https://arxiv.org/pdf/2309.13466">[arvix]</a>
+                                                            <a href="https://youtu.be/QT0JTuPhnqE?si=lCOaaBGJaMEVKMwG">[video]</a>
+                                                        </h4>
+                                                        <h5>IEEE International Conference on Robotics and Automation (ICRA) 2024 (under review)</h5>
+                                                        <h6 style="margin:.2em 0 .4em; font-size: .8em; color: #999;">
+                                                            Amir Hossain Raj*, <strong>Zichao Hu*</strong>, Haresh Karnan, Rohan Chandra, Amirreza Payandeh, Luisa Mao,  
+                                                            Peter Stone, Joydeep Biswas, and Xuesu Xiao (*equal contribution)
+                                                        </h6>
+                                                    </div>
                                                 </div>
                                                 <!-- .history-unit -->
 
 
                                                 <!-- .history-unit -->
-                                                <div class="history-unit">
-                                                	
-                                                    <h4 class="work-time">2021 - present</h4>
-                                                    
+                                                <div class="history-unit">	
+                                                    <h4 class="work-time">2022</h4>
                                                     <div class="work-desc">
-
-                                                        <h4>Dynamic Computation Distribution For Swarm Nano Drone</h4>
-                                                        <h5>Charlloteville, VA</h5>
-                                                         <p> The goal is to design a distributive scheduler system in order to balance the computation among drones and the server, and achieve better power and computation utilization efficiency. </p>
-                                                         <p> Benchmarking the OMPL, Darknet, KCF, ORBSLAM2 workloads to setup the problem scope </p>
-                                                         <p> Building above workloads on raspberry pi 4 microprocessor to profile the performances </p>
+                                                        <h4>
+                                                            Efficient 2D Graph SLAM for Sparse Sensing 
+                                                            <a href="https://arxiv.org/abs/2312.02353">[arvix]</a>
+                                                            <a href="https://github.com/shiftlab-nanodrone/sparse-gslam">[code]</a>
+                                                            <a href="https://youtu.be/i_dZWED9fJY?si=sDiL5tL7Z2Q2Oed7">[video]</a>
+                                                        </h4>
+                                                        <h5>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</h5>
+                                                        <h6 style="margin:.2em 0 .4em; font-size: .8em; color: #999;">
+                                                            Hanzhi Zhou*, <strong>Zichao Hu*</strong>, Sihang Liu, Samira Khan (*equal contribution)
+                                                        </h6>
                                                     </div>
-                                                    
                                                 </div>
                                                 <!-- .history-unit -->
 
 
-                                                <!-- .history-unit -->
-                                                <div class="history-unit">
-                                                	
-                                                    <h4 class="work-time">2020 - 2021</h4>
-                                                    
-                                                    <div class="work-desc">
-
-                                                        <h4>Secure Multiparty Computation</h4>
-                                                        <h5>Charlloteville, VA</h5>
-                                                         <p> Studied secure MPC protocols based on replicated secret sharing and Beaver Triple </p>
-                                                         <p> Studied efficient pseudorandom correlation generator based upon LPN-assumption and bilinear function </p>
-                                                         <p> Performed crytanalysis on the distributed point functions (DPF) using information-theoretic security and reduction to private information retrieval (PIR) </p>
-                                                        
-                                                    </div>
-                                                    
-                                                </div>
-                                                <!-- .history-unit -->
+                                               
+                                             
                                                 
                                             </div>
                                             <!-- Research -->
@@ -287,7 +304,7 @@
                                                     <div class="work-desc">
                                                     	
                                                         <h4>Fullstack Web Developer Intern</h4>
-                                                        <h5>Scanoptix Inc.</h5>
+                                                        <h5>Scanoptix Inc., Charlottesville, VA</h5>
                                                         <p> Developed the Scanoptix's medical imaging Website with Angular 9, AWS S3/Lambdas, and GraphQL </p>
                                                         <p> Implemented a image processing pipeline to achieve zooming, rotating, cropping, tuning functionalities and filter out noises using gamma correction </p>
                                                         <p> Set up a dockerized localstack and used Postman API to emulate the AWS workflow </p>
@@ -369,6 +386,32 @@
                                             <!-- PORTFOLIO -->
                                             <div class="portfolio-items">
                                               
+                                              <!-- portfolio-item -->  
+                                              <div class="research hentry x2">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/codebotler/Benchmark_Pipeline_Paper.png" alt="portfolio-post">
+                                                    <div class="mask">
+                                                        <a href="portfolio_codebotler.html" class="ajax"></a>
+                                                    </div>
+                                                </div>
+                                                <h4>Deploying and Evaluating LLMs to Program Service Mobile Robots</h4>
+                                                <p class="category">checkout our cool website: <a href="https://amrl.cs.utexas.edu/codebotler/">https://amrl.cs.utexas.edu/codebotler/</a></p>
+                                              </div>
+                                              <!-- portfolio-item --> 
+
+                                              <!-- portfolio-item -->  
+                                              <div class="research hentry x2">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/socialnav_hybrid/cover.png" alt="portfolio-post">
+                                                    <div class="mask">
+                                                        <a href="portfolio_socialnav_hybrid.html" class="ajax"></a>
+                                                    </div>
+                                                </div>
+                                                <h4>Targeted Learning: A Hybrid Approach to Social Robot Navigation </h4>
+                                                <p class="category">We found that classical systems can be
+                                                    used safely and efficiently in a large number of social situations</p>
+                                              </div>
+                                              <!-- portfolio-item --> 
 
                                               <!-- portfolio-item -->  
                                               <div class="research hentry x2">
@@ -378,8 +421,8 @@
                                                         <a href="portfolio_crazyflie.html" class="ajax"></a>
                                                     </div>
                                                 </div>
-                                                <h4>Efficient Graph SLAM For Sparse Sensing</h4>
-                                                <p class="category">Under Review for ICRA 2022</p>
+                                                <h4>Efficient 2D Graph SLAM for Sparse Sensing</h4>
+                                                <p class="category">An efficient SLAM algorithm for highly sensing-contrained nano robots</p>
                                               </div>
                                               <!-- portfolio-item --> 
                                               
@@ -476,7 +519,7 @@
                                         <div class="content">
                                         	
                                             
-                                            <h2><span>ABOUT ME</span></h2>
+                                            <h2><span>Contact Me</span></h2>
                                         		
                                                 
                                             <!--<h3>Where am I in this world?</h3>
@@ -492,11 +535,11 @@
                                             </div> -->
                                                 <img src="images/site/self.png" alt="stamp">
                                                 
-                                              <p class="center">I am a fourth-year student at University of Virginia majoring in computer engineering. I am an aspiring Robotics PhD Candidate. My research interests are in multi-robot system, autonomous navigation and planning, robot learning, and bio-inspired robotics. </p>
+                                              <!-- <p class="center">I am a fourth-year student at University of Virginia majoring in computer engineering. I am an aspiring Robotics PhD Candidate. My research interest is multi-robot system, autonomous navigation and planning, robot perception, and bio-inspired robotics. </p> -->
                                               
                                               
                                               
-                                              <h3><span>MY CONTACT</span></h3>
+                                              <!-- <h3><span>MY CONTACT</span></h3> -->
                                               
                                               <!-- .contact-form -->
                                               <div class="contact-form">
@@ -506,13 +549,13 @@
                                                 <div class="letter cf">
                                                 	
                                                     <div class="stamp">
-                                                  	  <img src="images/site/stampimage.png" alt="stamp">
+                                                  	  <img src="images/site/caricature.jpg" alt="stamp">
                                                     </div>
                                                   
                                                     <div class="letter-info">
                                                     	<h4>Zichao Hu</h4>
-                                                        <p><span class="label">Email:</span> zh2wc@virginia.edu</p>
-                                                        <p><span class="label">City:</span> Charllotesville, VA</p>
+                                                        <p><span class="label">Email:</span> zichao@utexas.edu</p>
+                                                        <p><span class="label">City:</span> Austin, Texas</p>
                                                         <p><span class="label">Phone:</span> +1 3308697136</p>
                                                     </div>
                                                     
@@ -586,7 +629,7 @@
         
         <!-- SCRIPTS -->
         <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
         <script src="js/jquery.address-1.5.min.js"></script>
         <script src="js/antiscroll.js"></script>

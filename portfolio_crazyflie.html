@@ -62,7 +62,7 @@
             
             	<!-- TITLE - column 8/12 -->
                 <div class="span8 portfolio-field portfolio-title">
-                	<h2>Efficient Graph SLAM For Sparse Sensing</h2> 
+                	<h2>Efficient 2D Graph SLAM for Sparse Sensing</h2> 
                 </div>
                 <!-- TITLE - column 8/12 -->
                 
@@ -76,7 +76,6 @@
                 <!-- PORTFOLIO-IMAGES - column 12/12 -->
                 <div class="span12 portfolio-field">
                     <iframe src="https://youtube.com/embed/i_dZWED9fJY" width="500" height="281"></iframe>
-                    
                 </div>
                 <!-- PORTFOLIO-IMAGES - column 12/12 -->
                 
@@ -85,9 +84,11 @@
                 <div class="span8 portfolio-field">
                 
                     <h3>Abstract</h3>
-                    <p>Small, agile, and cheap nano drones demonstrate promising potentials to carry out dangerous indoor exploration missions, in which simultaneous localization and mapping (SLAM) plays a vital role in mapping out unknown spaces and aiding autonomous navigation. However, state-of-the-art solutions for SLAM are tailored for dense and accurate sensors such as laser range-finders (LiDARs), which are uneconomical to be mounted on nano drones due to their limited battery and carrying capacity. Although some priors work has addressed SLAM with sparse sensing problems, they use filtering-based approaches that cannot solve the full SLAM problem. They are either making strong assumptions about the environment or computationally expensive. This work presents a system that uses line segment features with raw odometry to derive constraints in a pose graph, which are subsequently optimized with loop closures. Our experiments show that our method can construct 2D maps with 100 times real-time performance. Furthermore, the maps constructed by our algorithm have superior quality compared to prior works on sparse sensing and are comparable to maps produced with dense sensing.</p>
+                    <p>
+                        Simultaneous localization and mapping (SLAM) plays a vital role in mapping unknown spaces and aiding autonomous navigation. Virtually all state-of-the-art solutions today for 2D SLAM are designed for dense and accurate sensors such as laser range-finders (LiDARs). However, these sensors are not suitable for resource-limited nano robots, which become increasingly capable and ubiquitous nowadays, and these robots tend to mount economical and low-power sensors that can only provide sparse and noisy measurements. This introduces a challenging problem called SLAM with sparse sensing. This work addresses the problem by adopting the form of the state-of-the-art graph-based SLAM pipeline with a novel frontend and an improvement for loop closing in the backend, both of which are designed to work with sparse and uncertain range data. Experiments show that the maps constructed by our algorithm have superior quality compared to prior works on sparse sensing. Furthermore, our method is capable of running in real-time on a modern PC with an average processing time of 1/100th the input interval time.
+                    </p>
                     <div class="launch">
-                        <a href="/documents/icra2022.pdf" class="btn">VIEW PREPRINT PAPER</a>
+                        <a href="https://arxiv.org/abs/2312.02353" target="_blank">View arvix</a>
                     </div>
                     
                 </div>
