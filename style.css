@@ -1,0 +1,31 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem; /* Adjust this value as needed */
+}
+.custom-container {
+    max-width: 950px;
+    margin: 0 auto; /* Center the container */
+}
+a {
+    color: #007bb5; /* Adjust this hex value if needed */
+    text-decoration: none; /* Remove underline if desired */
+}
+
+a:hover {
+    color: #005f8a; /* Darker shade on hover (optional) */
+}
+.title-with-line {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; /* Space between text and line */
+}
+
+.title-with-line::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0.25;
+    border-top: 1px solid;
+    margin-top: 4px;
+}
